@@ -1,7 +1,7 @@
 # foundation-6-sublime-snippets
 ZURB Foundation for Sites 6 Sublime Text 3 Snippets 
 
-## ZURB Foundation 5 Sublime Text Snippets
+## ZURB Foundation Sites 6 Sublime Text Snippets
 
 #### Installation on Sublime Text 2 and Sublime Text 3
 
@@ -17,12 +17,12 @@ ZURB Foundation for Sites 6 Sublime Text 3 Snippets
 
 2. Clone repository into packages folder
 
-`git clone https://github.com/zurb/foundation-5-sublime-snippets.git`
+`git clone https://github.com/zurb/foundation-6-sublime-snippets.git`
 
 ###### Windows Instructions
 
 `cd "%AppData%\Sublime Text 3\Packages\User"`
-`git clone https://github.com/zurb/foundation-5-sublime-snippets.git`
+`git clone https://github.com/zurb/foundation-6-sublime-snippets.git`
 
 * Each snippet is prefixed with `zf-` (ZURB Foundation).
 * Each snippet is singular, unless the name of the component ends in an s (offcanvas)
