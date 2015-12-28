@@ -1,8 +1,9 @@
 <snippet>
   <content><![CDATA[
 <!-- Size Classes: [tiny small large] -->
-<!-- Radius Classes: [radius round] -->
-<!-- Color Classes: [secondary success alert] -->
+<!-- Expanded Class: expanded -->
+<!-- Hollow Class: hollow -->
+<!-- Color Classes: [secondary success alert warning] -->
 <!-- Disabled Class: disabled -->
 <a href="#" class="button">Default Button</a>
 ]]></content>
