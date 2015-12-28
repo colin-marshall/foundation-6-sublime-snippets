@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<ul class="tabs" data-tabs id="example-tabs">
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+  <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+</ul>
+<div class="tabs-content" data-tabs-content="example-tabs">
+  <div class="tabs-panel is-active" id="panel1">
+    <p>This is the content for the first tab panel.</p>
+  </div>
+  <div class="tabs-panel" id="panel2">
+    <p>This is the content for the second tab panel.</p>
+  </div>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>zf-tab</tabTrigger>
+  <description>ZURB Foundation 6 Tabs</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
