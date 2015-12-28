@@ -1,35 +1,32 @@
 <snippet>
   <content><![CDATA[
-  <nav class="top-bar" data-topbar>
-    <ul class="title-area">
-      <li class="name">
-        <h1><a href="#">Something</a></h1>
-      </li>
-      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
-
-  <section class="top-bar-section">
-    <!-- Right Nav Section -->
-    <ul class="right">
-      <li class="active"><a href="#">Right Nav Button Active</a></li>
-      <li class="has-dropdown">
-        <a href="#">Right Button with Dropdown</a>
-        <ul class="dropdown">
-          <li><a href="#">First link in dropdown</a></li>
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li class="has-submenu">
+        <a href="#">One</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
         </ul>
       </li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
     </ul>
-
-    <!-- Left Nav Section -->
-    <ul class="left">
-      <li><a href="#">Left Nav Button</a></li>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
     </ul>
-  </section>
-</nav>
+  </div>
+</div>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>zf-topbar</tabTrigger>
-  <description>ZURB Foundation 5 Topbar</description>
+  <description>ZURB Foundation 6 Topbar</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>
