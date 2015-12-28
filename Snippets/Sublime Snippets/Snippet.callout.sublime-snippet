@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<!-- Optional classes: [secondary primary success alert warning] [small large] -->
+<div class="callout">
+	<!-- Your content goes here -->
+  <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+  	<span aria-hidden="true">&times;</span>
+  </button>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>zf-callout</tabTrigger>
+  <description>ZURB Foundation 6 Callout</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
