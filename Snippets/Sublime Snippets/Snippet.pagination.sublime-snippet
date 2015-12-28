@@ -1,20 +1,20 @@
 <snippet>
   <content><![CDATA[
-<ul class="pagination">
-  <li class="arrow unavailable"><a href="">&laquo;</a></li>
-  <li class="current"><a href="">1</a></li>
-  <li><a href="">2</a></li>
-  <li><a href="">3</a></li>
-  <li><a href="">4</a></li>
-  <li class="unavailable"><a href="">&hellip;</a></li>
-  <li><a href="">12</a></li>
-  <li><a href="">13</a></li>
-  <li class="arrow"><a href="">&raquo;</a></li>
+<ul class="pagination" role="navigation" aria-label="Pagination">
+  <li class="pagination-previous disabled">Previous <span class="show-for-sr">page</span></li>
+  <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+  <li><a href="#" aria-label="Page 2">2</a></li>
+  <li><a href="#" aria-label="Page 3">3</a></li>
+  <li><a href="#" aria-label="Page 4">4</a></li>
+  <li class="ellipsis" aria-hidden="true"></li>
+  <li><a href="#" aria-label="Page 12">12</a></li>
+  <li><a href="#" aria-label="Page 13">13</a></li>
+  <li class="pagination-next"><a href="#" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
 </ul>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>zf-pagination</tabTrigger>
-  <description>ZURB Foundation 5 Pagination</description>
+  <description>ZURB Foundation 6 Pagination</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>
