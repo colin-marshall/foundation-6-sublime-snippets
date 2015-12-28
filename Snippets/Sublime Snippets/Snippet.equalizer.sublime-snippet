@@ -1,17 +1,17 @@
 <snippet>
 	<content><![CDATA[
-<div class="row" data-equalizer>
+<div class="row" data-equalizer data-equalize-on="medium">
   <div class="large-6 columns panel" data-equalizer-watch>
-    ...
+    
   </div>
   <div class="large-6 columns panel" data-equalizer-watch>
-    ...
+    
   </div>
 </div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>zf-equalizer</tabTrigger>
-	<description>ZURB Foundation 5 Equalizer</description>
+	<description>ZURB Foundation 6 Equalizer</description>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>
