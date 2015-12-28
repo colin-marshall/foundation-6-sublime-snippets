@@ -1,18 +1,17 @@
 <snippet>
   <content><![CDATA[
-    <!-- Size Classes: [tiny small medium large] -->
-    <!-- Color Classes: [secondary alert success] -->
-    <!-- Radius Classes: [radius round] -->
-<a href="#" class="button split">Split Button <span data-dropdown="drop"></span></a><br>
-<ul id="drop" class="f-dropdown" data-dropdown-content>
-  <li><a href="#">This is a link</a></li>
-  <li><a href="#">This is another</a></li>
-  <li><a href="#">Yet another</a></li>
-</ul>
+<!-- Size Classes: [tiny small large] -->
+<!-- Color Classes: [secondary success warning alert] -->
+<div class="button-group">
+  <a class="button">Primary Action</a>
+  <a class="dropdown button arrow-only">
+    <span class="show-for-sr">Show menu</span>
+  </a>
+</div>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>zf-split-button</tabTrigger>
-  <description>ZURB Foundation 5 Split Buttons</description>
+  <description>ZURB Foundation 6 Split Button</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <scope>text.html</scope>
 </snippet>
