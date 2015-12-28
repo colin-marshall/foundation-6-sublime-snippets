@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<!-- Style Classes: [vertical simple expanded] -->
+<!-- Alignment Classes: [align-left align-right] -->
+<ul class="menu">
+  <li><a href="#">One</a></li>
+  <li><a href="#">Two</a></li>
+  <li><a href="#">Three</a></li>
+  <li><a href="#">Four</a></li>
+</ul>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>zf-menu</tabTrigger>
+  <description>ZURB Foundation 6 Menu</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html</scope>
+</snippet>
