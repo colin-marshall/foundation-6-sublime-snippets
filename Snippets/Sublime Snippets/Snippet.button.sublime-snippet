@@ -1,10 +1,8 @@
 <snippet>
   <content><![CDATA[
 <!-- Size Classes: [tiny small large] -->
-<!-- Expanded Class: expanded -->
-<!-- Hollow Class: hollow -->
 <!-- Color Classes: [secondary success alert warning] -->
-<!-- Disabled Class: disabled -->
+<!-- Other Classes: disabled expanded hollow clear dropdown -->
 <a href="#" class="button">Default Button</a>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
